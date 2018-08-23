@@ -1,0 +1,2417 @@
+2018-08-23 10:26:41 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffe4cdc3890; archive(resolved)='<IDEArchive: 0x7ffe4bf50bf0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ffe4cdc3890; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffe4ce15bc0; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4d60a920; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4d52a100; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe47697890; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4c8592d0; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4bc95820; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4cf26d80; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe48dc8680; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='<IDEProvisioningBasicTeam: 0x7ffe4d00c2a0; teamID='34AB787256', teamName='Yisen Wang'>'>
+	<IDEDistributionContext: 0x7ffe4cc9c020; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7ffe4c198330>', team='(null)'>
+	<IDEDistributionContext: 0x7ffe4d601150; archive = '<IDEArchive: 0x7ffe4bf50bf0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffe4cdc3890>
+2018-08-23 10:26:41 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-08-23 10:26:41 +0000  Processing step: IDEDistributionCopyItemStep
+2018-08-23 10:26:41 +0000  Running /usr/bin/ditto '-V' '/Users/niuwamk2/Library/Developer/Xcode/Archives/2018-08-23/ma 2018-8-23 下午5.06.xcarchive/Products/Applications/wodemaoxian.app' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app'
+2018-08-23 10:26:41 +0000  >>> Copying /Users/niuwamk2/Library/Developer/Xcode/Archives/2018-08-23/ma 2018-8-23 下午5.06.xcarchive/Products/Applications/wodemaoxian.app 
+2018-08-23 10:26:41 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-08-23 10:26:41 +0000  49547 bytes for ./_CodeSignature/CodeResources
+2018-08-23 10:26:41 +0000  copying file ./AppIcon29x29@3x.png ... 
+2018-08-23 10:26:41 +0000  22202 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon40x40@3x.png ... 
+2018-08-23 10:26:41 +0000  39325 bytes for ./AppIcon40x40@3x.png
+2018-08-23 10:26:41 +0000  copying file ./AppIcon57x57.png ... 
+2018-08-23 10:26:41 +0000  10304 bytes for ./AppIcon57x57.png
+copying file ./AppIcon57x57@2x.png ... 
+2018-08-23 10:26:41 +0000  35809 bytes for ./AppIcon57x57@2x.png
+copying file ./AppIcon60x60@2x.png ... 
+2018-08-23 10:26:41 +0000  39325 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-08-23 10:26:41 +0000  80834 bytes for ./AppIcon60x60@3x.png
+copying file ./Assets.car ... 
+2018-08-23 10:26:41 +0000  231320 bytes for ./Assets.car
+2018-08-23 10:26:41 +0000  copying file ./Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.pos ... 
+2018-08-23 10:26:41 +0000  2916 bytes for ./Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.pos
+2018-08-23 10:26:41 +0000  copying file ./Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.rpc.neo ... 
+2018-08-23 10:26:41 +0000  189654 bytes for ./Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.rpc.neo
+copying file ./Data/globalgamemanagers ... 
+2018-08-23 10:26:41 +0000  41468 bytes for ./Data/globalgamemanagers
+2018-08-23 10:26:41 +0000  copying file ./Data/globalgamemanagers.assets ... 
+2018-08-23 10:26:41 +0000  90776 bytes for ./Data/globalgamemanagers.assets
+copying file ./Data/globalgamemanagers.assets.resS ... 
+2018-08-23 10:26:41 +0000  2019592 bytes for ./Data/globalgamemanagers.assets.resS
+2018-08-23 10:26:41 +0000  copying file ./Data/level0 ... 
+2018-08-23 10:26:41 +0000  1767300 bytes for ./Data/level0
+2018-08-23 10:26:41 +0000  copying file ./Data/Managed/Metadata/global-metadata.dat ... 
+2018-08-23 10:26:41 +0000  5496756 bytes for ./Data/Managed/Metadata/global-metadata.dat
+2018-08-23 10:26:41 +0000  copying file ./Data/Managed/mono/2.0/machine.config ... 
+27625 bytes for ./Data/Managed/mono/2.0/machine.config
+copying file ./Data/Managed/Resources/Mono.Data.Sqlite.dll-resources.dat ... 
+34477 bytes for ./Data/Managed/Resources/Mono.Data.Sqlite.dll-resources.dat
+copying file ./Data/Managed/Resources/mscorlib.dll-resources.dat ... 
+337563 bytes for ./Data/Managed/Resources/mscorlib.dll-resources.dat
+copying file ./Data/Managed/Resources/System.dll-resources.dat ... 
+54703 bytes for ./Data/Managed/Resources/System.dll-resources.dat
+copying file ./Data/Managed/SymbolMap-64 ... 
+2018-08-23 10:26:41 +0000  1444072 bytes for ./Data/Managed/SymbolMap-64
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/achievement.unity3d ... 
+2018-08-23 10:26:42 +0000  1223826 bytes for ./Data/Raw/achievement.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/achievement.unity3d.manifest ... 
+1969 bytes for ./Data/Raw/achievement.unity3d.manifest
+copying file ./Data/Raw/advequipui.unity3d ... 
+60511 bytes for ./Data/Raw/advequipui.unity3d
+copying file ./Data/Raw/advequipui.unity3d.manifest ... 
+1156 bytes for ./Data/Raw/advequipui.unity3d.manifest
+copying file ./Data/Raw/awrad.unity3d ... 
+2018-08-23 10:26:42 +0000  1134897 bytes for ./Data/Raw/awrad.unity3d
+copying file ./Data/Raw/awrad.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1516 bytes for ./Data/Raw/awrad.unity3d.manifest
+copying file ./Data/Raw/buygolds.unity3d ... 
+2018-08-23 10:26:42 +0000  1040733 bytes for ./Data/Raw/buygolds.unity3d
+copying file ./Data/Raw/buygolds.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1077 bytes for ./Data/Raw/buygolds.unity3d.manifest
+copying file ./Data/Raw/changeequip.unity3d ... 
+2018-08-23 10:26:42 +0000  1194096 bytes for ./Data/Raw/changeequip.unity3d
+copying file ./Data/Raw/changeequip.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1804 bytes for ./Data/Raw/changeequip.unity3d.manifest
+copying file ./Data/Raw/data.db ... 
+15360 bytes for ./Data/Raw/data.db
+copying file ./Data/Raw/data.unity3d ... 
+84043 bytes for ./Data/Raw/data.unity3d
+copying file ./Data/Raw/data.unity3d.manifest ... 
+1238 bytes for ./Data/Raw/data.unity3d.manifest
+copying file ./Data/Raw/equip.unity3d ... 
+2018-08-23 10:26:42 +0000  1173207 bytes for ./Data/Raw/equip.unity3d
+copying file ./Data/Raw/equip.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1600 bytes for ./Data/Raw/equip.unity3d.manifest
+copying file ./Data/Raw/files.txt ... 
+6270 bytes for ./Data/Raw/files.txt
+copying file ./Data/Raw/goldlack.unity3d ... 
+2018-08-23 10:26:42 +0000  1052772 bytes for ./Data/Raw/goldlack.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/goldlack.unity3d.manifest ... 
+1171 bytes for ./Data/Raw/goldlack.unity3d.manifest
+copying file ./Data/Raw/guide.unity3d ... 
+2018-08-23 10:26:42 +0000  1295455 bytes for ./Data/Raw/guide.unity3d
+copying file ./Data/Raw/guide.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1164 bytes for ./Data/Raw/guide.unity3d.manifest
+copying file ./Data/Raw/guildupgrade.unity3d ... 
+2018-08-23 10:26:42 +0000  1026130 bytes for ./Data/Raw/guildupgrade.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/guildupgrade.unity3d.manifest ... 
+1349 bytes for ./Data/Raw/guildupgrade.unity3d.manifest
+copying file ./Data/Raw/levelup.unity3d ... 
+2018-08-23 10:26:42 +0000  1027542 bytes for ./Data/Raw/levelup.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/levelup.unity3d.manifest ... 
+1445 bytes for ./Data/Raw/levelup.unity3d.manifest
+copying file ./Data/Raw/loader.unity3d ... 
+2018-08-23 10:26:42 +0000  1216603 bytes for ./Data/Raw/loader.unity3d
+copying file ./Data/Raw/loader.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1710 bytes for ./Data/Raw/loader.unity3d.manifest
+copying file ./Data/Raw/loaderinfo.unity3d ... 
+1023525 bytes for ./Data/Raw/loaderinfo.unity3d
+copying file ./Data/Raw/loaderinfo.unity3d.manifest ... 
+1530 bytes for ./Data/Raw/loaderinfo.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/cjson/example1.json ... 
+2018-08-23 10:26:42 +0000  871 bytes for ./Data/Raw/lua/3rd/cjson/example1.json
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/cjson/example2.json ... 
+2018-08-23 10:26:42 +0000  242 bytes for ./Data/Raw/lua/3rd/cjson/example2.json
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/cjson/example3.json ... 
+2018-08-23 10:26:42 +0000  601 bytes for ./Data/Raw/lua/3rd/cjson/example3.json
+copying file ./Data/Raw/lua/3rd/cjson/example4.json ... 
+2018-08-23 10:26:42 +0000  3463 bytes for ./Data/Raw/lua/3rd/cjson/example4.json
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/cjson/example5.json ... 
+2018-08-23 10:26:42 +0000  873 bytes for ./Data/Raw/lua/3rd/cjson/example5.json
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/api.html ... 
+2018-08-23 10:26:42 +0000  12045 bytes for ./Data/Raw/lua/3rd/luabitop/doc/api.html
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/bluequad-print.css ... 
+2018-08-23 10:26:42 +0000  2514 bytes for ./Data/Raw/lua/3rd/luabitop/doc/bluequad-print.css
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/bluequad.css ... 
+2018-08-23 10:26:42 +0000  5182 bytes for ./Data/Raw/lua/3rd/luabitop/doc/bluequad.css
+copying file ./Data/Raw/lua/3rd/luabitop/doc/changes.html ... 
+2018-08-23 10:26:42 +0000  2094 bytes for ./Data/Raw/lua/3rd/luabitop/doc/changes.html
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/contact.html ... 
+2018-08-23 10:26:42 +0000  2039 bytes for ./Data/Raw/lua/3rd/luabitop/doc/contact.html
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/img/contact.png ... 
+2018-08-23 10:26:42 +0000  1575 bytes for ./Data/Raw/lua/3rd/luabitop/doc/img/contact.png
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/index.html ... 
+2018-08-23 10:26:42 +0000  2926 bytes for ./Data/Raw/lua/3rd/luabitop/doc/index.html
+copying file ./Data/Raw/lua/3rd/luabitop/doc/install.html ... 
+2018-08-23 10:26:42 +0000  7908 bytes for ./Data/Raw/lua/3rd/luabitop/doc/install.html
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/doc/semantics.html ... 
+2018-08-23 10:26:42 +0000  7556 bytes for ./Data/Raw/lua/3rd/luabitop/doc/semantics.html
+copying file ./Data/Raw/lua/3rd/luabitop/Makefile ... 
+2018-08-23 10:26:42 +0000  1399 bytes for ./Data/Raw/lua/3rd/luabitop/Makefile
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/Makefile.mingw ... 
+2018-08-23 10:26:42 +0000  1178 bytes for ./Data/Raw/lua/3rd/luabitop/Makefile.mingw
+copying file ./Data/Raw/lua/3rd/luabitop/msvcbuild.bat ... 
+2018-08-23 10:26:42 +0000  851 bytes for ./Data/Raw/lua/3rd/luabitop/msvcbuild.bat
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/msvctest.bat ... 
+2018-08-23 10:26:42 +0000  308 bytes for ./Data/Raw/lua/3rd/luabitop/msvctest.bat
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/3rd/luabitop/README ... 
+2018-08-23 10:26:42 +0000  506 bytes for ./Data/Raw/lua/3rd/luabitop/README
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/Build.bat ... 
+2018-08-23 10:26:42 +0000  542 bytes for ./Data/Raw/lua/Build.bat
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua.unity3d ... 
+2018-08-23 10:26:42 +0000  9294 bytes for ./Data/Raw/lua/lua.unity3d
+copying file ./Data/Raw/lua/lua.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  628 bytes for ./Data/Raw/lua/lua.unity3d.manifest
+copying file ./Data/Raw/lua/lua_3rd_cjson.unity3d ... 
+2018-08-23 10:26:42 +0000  2709 bytes for ./Data/Raw/lua/lua_3rd_cjson.unity3d
+copying file ./Data/Raw/lua/lua_3rd_cjson.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  345 bytes for ./Data/Raw/lua/lua_3rd_cjson.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_3rd_luabitop.unity3d ... 
+2018-08-23 10:26:42 +0000  4852 bytes for ./Data/Raw/lua/lua_3rd_luabitop.unity3d
+copying file ./Data/Raw/lua/lua_3rd_luabitop.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  535 bytes for ./Data/Raw/lua/lua_3rd_luabitop.unity3d.manifest
+copying file ./Data/Raw/lua/lua_cjson.unity3d ... 
+2018-08-23 10:26:42 +0000  2712 bytes for ./Data/Raw/lua/lua_cjson.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_cjson.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  341 bytes for ./Data/Raw/lua/lua_cjson.unity3d.manifest
+copying file ./Data/Raw/lua/lua_common.unity3d ... 
+2018-08-23 10:26:42 +0000  20662 bytes for ./Data/Raw/lua/lua_common.unity3d
+copying file ./Data/Raw/lua/lua_common.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  625 bytes for ./Data/Raw/lua/lua_common.unity3d.manifest
+copying file ./Data/Raw/lua/lua_controller.unity3d ... 
+2018-08-23 10:26:42 +0000  34343 bytes for ./Data/Raw/lua/lua_controller.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_controller.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1295 bytes for ./Data/Raw/lua/lua_controller.unity3d.manifest
+copying file ./Data/Raw/lua/lua_jit.unity3d ... 
+2018-08-23 10:26:42 +0000  41232 bytes for ./Data/Raw/lua/lua_jit.unity3d
+copying file ./Data/Raw/lua/lua_jit.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  894 bytes for ./Data/Raw/lua/lua_jit.unity3d.manifest
+copying file ./Data/Raw/lua/lua_logic.unity3d ... 
+2018-08-23 10:26:42 +0000  6679 bytes for ./Data/Raw/lua/lua_logic.unity3d
+copying file ./Data/Raw/lua/lua_logic.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  456 bytes for ./Data/Raw/lua/lua_logic.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_lpeg.unity3d ... 
+2018-08-23 10:26:42 +0000  2978 bytes for ./Data/Raw/lua/lua_lpeg.unity3d
+copying file ./Data/Raw/lua/lua_lpeg.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  338 bytes for ./Data/Raw/lua/lua_lpeg.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_misc.unity3d ... 
+2018-08-23 10:26:42 +0000  4078 bytes for ./Data/Raw/lua/lua_misc.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_misc.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  446 bytes for ./Data/Raw/lua/lua_misc.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_protobuf.unity3d ... 
+2018-08-23 10:26:42 +0000  10936 bytes for ./Data/Raw/lua/lua_protobuf.unity3d
+copying file ./Data/Raw/lua/lua_protobuf.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  689 bytes for ./Data/Raw/lua/lua_protobuf.unity3d.manifest
+copying file ./Data/Raw/lua/lua_socket.unity3d ... 
+2018-08-23 10:26:42 +0000  11911 bytes for ./Data/Raw/lua/lua_socket.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_socket.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  551 bytes for ./Data/Raw/lua/lua_socket.unity3d.manifest
+copying file ./Data/Raw/lua/lua_system.unity3d ... 
+2018-08-23 10:26:42 +0000  2491 bytes for ./Data/Raw/lua/lua_system.unity3d
+copying file ./Data/Raw/lua/lua_system.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  423 bytes for ./Data/Raw/lua/lua_system.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_system_reflection.unity3d ... 
+2018-08-23 10:26:42 +0000  1137 bytes for ./Data/Raw/lua/lua_system_reflection.unity3d
+copying file ./Data/Raw/lua/lua_system_reflection.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  361 bytes for ./Data/Raw/lua/lua_system_reflection.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_unityengine.unity3d ... 
+2018-08-23 10:26:42 +0000  14967 bytes for ./Data/Raw/lua/lua_unityengine.unity3d
+copying file ./Data/Raw/lua/lua_unityengine.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  901 bytes for ./Data/Raw/lua/lua_unityengine.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/lua/lua_view.unity3d ... 
+2018-08-23 10:26:42 +0000  2598 bytes for ./Data/Raw/lua/lua_view.unity3d
+copying file ./Data/Raw/lua/lua_view.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  430 bytes for ./Data/Raw/lua/lua_view.unity3d.manifest
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/mapalbum.unity3d ... 
+2018-08-23 10:26:42 +0000  1308352 bytes for ./Data/Raw/mapalbum.unity3d
+copying file ./Data/Raw/mapalbum.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  2182 bytes for ./Data/Raw/mapalbum.unity3d.manifest
+copying file ./Data/Raw/mapimage.unity3d ... 
+2018-08-23 10:26:42 +0000  7550020 bytes for ./Data/Raw/mapimage.unity3d
+2018-08-23 10:26:42 +0000  copying file ./Data/Raw/mapimage.unity3d.manifest ... 
+22956 bytes for ./Data/Raw/mapimage.unity3d.manifest
+copying file ./Data/Raw/maptag.unity3d ... 
+261977 bytes for ./Data/Raw/maptag.unity3d
+copying file ./Data/Raw/maptag.unity3d.manifest ... 
+2550 bytes for ./Data/Raw/maptag.unity3d.manifest
+copying file ./Data/Raw/mission.unity3d ... 
+2018-08-23 10:26:42 +0000  1215876 bytes for ./Data/Raw/mission.unity3d
+copying file ./Data/Raw/mission.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1887 bytes for ./Data/Raw/mission.unity3d.manifest
+copying file ./Data/Raw/preview.unity3d ... 
+2018-08-23 10:26:42 +0000  1184663 bytes for ./Data/Raw/preview.unity3d
+copying file ./Data/Raw/preview.unity3d.manifest ... 
+2018-08-23 10:26:42 +0000  1794 bytes for ./Data/Raw/preview.unity3d.manifest
+copying file ./Data/Raw/recruit.unity3d ... 
+2018-08-23 10:26:42 +0000  1208411 bytes for ./Data/Raw/recruit.unity3d
+copying file ./Data/Raw/recruit.unity3d.manifest ... 
+2018-08-23 10:26:43 +0000  1699 bytes for ./Data/Raw/recruit.unity3d.manifest
+copying file ./Data/Raw/recruitui.unity3d ... 
+174810 bytes for ./Data/Raw/recruitui.unity3d
+copying file ./Data/Raw/recruitui.unity3d.manifest ... 
+1181 bytes for ./Data/Raw/recruitui.unity3d.manifest
+copying file ./Data/Raw/risker.unity3d ... 
+570176 bytes for ./Data/Raw/risker.unity3d
+copying file ./Data/Raw/risker.unity3d.manifest ... 
+866 bytes for ./Data/Raw/risker.unity3d.manifest
+copying file ./Data/Raw/riskerinfo.unity3d ... 
+2018-08-23 10:26:43 +0000  1194480 bytes for ./Data/Raw/riskerinfo.unity3d
+2018-08-23 10:26:43 +0000  copying file ./Data/Raw/riskerinfo.unity3d.manifest ... 
+1617 bytes for ./Data/Raw/riskerinfo.unity3d.manifest
+copying file ./Data/Raw/shareres.unity3d ... 
+286094 bytes for ./Data/Raw/shareres.unity3d
+copying file ./Data/Raw/shareres.unity3d.manifest ... 
+2094 bytes for ./Data/Raw/shareres.unity3d.manifest
+copying file ./Data/Raw/shop.unity3d ... 
+2018-08-23 10:26:43 +0000  1174077 bytes for ./Data/Raw/shop.unity3d
+copying file ./Data/Raw/shop.unity3d.manifest ... 
+2018-08-23 10:26:43 +0000  1595 bytes for ./Data/Raw/shop.unity3d.manifest
+copying file ./Data/Raw/soud.unity3d ... 
+2018-08-23 10:26:43 +0000  4298510 bytes for ./Data/Raw/soud.unity3d
+copying file ./Data/Raw/soud.unity3d.manifest ... 
+2018-08-23 10:26:43 +0000  669 bytes for ./Data/Raw/soud.unity3d.manifest
+copying file ./Data/Raw/StreamingAssets ... 
+2073 bytes for ./Data/Raw/StreamingAssets
+copying file ./Data/Raw/StreamingAssets.manifest ... 
+3226 bytes for ./Data/Raw/StreamingAssets.manifest
+copying file ./Data/Raw/transfers.unity3d ... 
+2018-08-23 10:26:43 +0000  1040746 bytes for ./Data/Raw/transfers.unity3d
+2018-08-23 10:26:43 +0000  copying file ./Data/Raw/transfers.unity3d.manifest ... 
+1172 bytes for ./Data/Raw/transfers.unity3d.manifest
+copying file ./Data/Raw/transferssuccess.unity3d ... 
+2018-08-23 10:26:43 +0000  1028241 bytes for ./Data/Raw/transferssuccess.unity3d
+2018-08-23 10:26:43 +0000  copying file ./Data/Raw/transferssuccess.unity3d.manifest ... 
+1464 bytes for ./Data/Raw/transferssuccess.unity3d.manifest
+copying file ./Data/Resources/unity_builtin_extra ... 
+503192 bytes for ./Data/Resources/unity_builtin_extra
+copying file ./Data/resources.assets ... 
+2018-08-23 10:26:43 +0000  7783208 bytes for ./Data/resources.assets
+copying file ./Data/resources.assets.resS ... 
+2018-08-23 10:26:43 +0000  262144 bytes for ./Data/resources.assets.resS
+copying file ./Data/sharedassets0.assets ... 
+2018-08-23 10:26:43 +0000  7507868 bytes for ./Data/sharedassets0.assets
+2018-08-23 10:26:43 +0000  copying file ./Data/sharedassets0.assets.resS ... 
+2018-08-23 10:26:43 +0000  17734692 bytes for ./Data/sharedassets0.assets.resS
+2018-08-23 10:26:43 +0000  copying file ./Data/unity default resources ... 
+2018-08-23 10:26:43 +0000  1079472 bytes for ./Data/unity default resources
+2018-08-23 10:26:43 +0000  copying file ./embedded.mobileprovision ... 
+7663 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2140 bytes for ./Info.plist
+copying file ./LaunchImage-568h@2x.png ... 
+2018-08-23 10:26:44 +0000  4617 bytes for ./LaunchImage-568h@2x.png
+2018-08-23 10:26:44 +0000  copying file ./LaunchImage-700-568h@2x.png ... 
+2018-08-23 10:26:44 +0000  4617 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./LaunchImage-700@2x.png ... 
+2018-08-23 10:26:44 +0000  3935 bytes for ./LaunchImage-700@2x.png
+2018-08-23 10:26:44 +0000  copying file ./LaunchImage-800-667h@2x.png ... 
+2018-08-23 10:26:44 +0000  5951 bytes for ./LaunchImage-800-667h@2x.png
+copying file ./LaunchImage-800-Landscape-736h@3x.png ... 
+2018-08-23 10:26:44 +0000  12887 bytes for ./LaunchImage-800-Landscape-736h@3x.png
+copying file ./LaunchImage-800-Portrait-736h@3x.png ... 
+2018-08-23 10:26:44 +0000  14197 bytes for ./LaunchImage-800-Portrait-736h@3x.png
+2018-08-23 10:26:44 +0000  copying file ./LaunchImage.png ... 
+2018-08-23 10:26:44 +0000  1427 bytes for ./LaunchImage.png
+2018-08-23 10:26:44 +0000  copying file ./LaunchImage@2x.png ... 
+2018-08-23 10:26:44 +0000  3935 bytes for ./LaunchImage@2x.png
+2018-08-23 10:26:44 +0000  copying file ./LaunchScreen-iPhone.nib ... 
+2018-08-23 10:26:44 +0000  1453 bytes for ./LaunchScreen-iPhone.nib
+copying file ./LaunchScreen-iPhoneLandscape.png ... 
+2018-08-23 10:26:44 +0000  120 bytes for ./LaunchScreen-iPhoneLandscape.png
+copying file ./LaunchScreen-iPhonePortrait.png ... 
+2018-08-23 10:26:44 +0000  120 bytes for ./LaunchScreen-iPhonePortrait.png
+copying file ./PkgInfo ... 
+2018-08-23 10:26:44 +0000  8 bytes for ./PkgInfo
+2018-08-23 10:26:44 +0000  copying file ./wodemaoxian ... 
+2018-08-23 10:26:44 +0000  30624560 bytes for ./wodemaoxian
+2018-08-23 10:26:44 +0000  2018-08-23 10:26:44 +0000  /usr/bin/ditto exited with 0
+
+2018-08-23 10:26:44 +0000  
+2018-08-23 10:26:44 +0000  2018-08-23 10:26:44 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-08-23 10:26:44 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-08-23 10:26:44 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-08-23 10:26:44 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionSymbolsStep
+2018-08-23 10:26:44 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-08-23 10:26:44 +0000  Processing step: IDEDistributionAppThinningStep
+2018-08-23 10:26:44 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root' '--json' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/ipatool-json-filepath-5vXFIE' '--create-thinned' 'iPhone7,2' '--output' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-08-23 10:26:45 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+2018-08-23 10:26:45 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:98: warning: assigned but unused variable - temp
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:109: warning: assigned but unused variable - e
+2018-08-23 10:26:46 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-08-23 10:26:46 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-08-23 10:26:46 +0000  OS X 10.13.6 17G65
+2018-08-23 10:26:46 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/", "LOGNAME"=>"niuwamk2", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/niuwamk2", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.Ig86bPl6V3/Render", "USER"=>"niuwamk2", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.LnZEKJkced/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.6560", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root", "--json", "/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/ipatool-json-filepath-5vXFIE", "--create-thinned", "iPhone7,2", "--output", "/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-08-23 10:26:46 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-08-23 10:26:46 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-08-23 10:26:46 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-08-23 10:26:46 +0000  Scanning IPA...
+2018-08-23 10:26:46 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon29x29@3x.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7068 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon40x40@3x.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7069 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon57x57.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7070 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon57x57@2x.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7071 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon60x60@2x.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7072 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/AppIcon60x60@3x.png
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7073 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Assets.car
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7074 exit 0
+    Stdout:
+        Mac OS X bill of materials (BOM) file
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.pos
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7075 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.rpc.neo
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7076 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/Metadata/global-metadata.dat
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7077 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/Resources/Mono.Data.Sqlite.dll-resources.dat
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7078 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/Resources/System.dll-resources.dat
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7079 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/Resources/mscorlib.dll-resources.dat
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7080 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/SymbolMap-64
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7081 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Managed/mono/2.0/machine.config
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7082 exit 0
+    Stdout:
+        XML 1.0 document text, ASCII text, with very long lines
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/StreamingAssets
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7083 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/StreamingAssets.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7084 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/achievement.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7085 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/achievement.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7086 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7087 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7088 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/awrad.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7089 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/awrad.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7090 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7091 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7092 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7093 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7094 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/data.db
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7095 exit 0
+    Stdout:
+        SQLite 3.x database, last written using SQLite version 3019003
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/data.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7096 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/data.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7097 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/equip.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7098 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/equip.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7099 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/files.txt
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7100 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7101 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7102 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/guide.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7103 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/guide.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7104 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7105 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7106 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/levelup.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7107 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/levelup.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7108 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/loader.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7109 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/loader.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7110 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7111 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d.manifest
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7112 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example1.json
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7113 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example2.json
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7114 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example3.json
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7115 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example4.json
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7116 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example5.json
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7117 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7118 exit 0
+    Stdout:
+        makefile script text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile.mingw
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7119 exit 0
+    Stdout:
+        makefile script text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/README
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7120 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/api.html
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7121 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad-print.css
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7122 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad.css
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7123 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/changes.html
+2018-08-23 10:26:47 +0000      /usr/bin/file exited with pid 7124 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:47 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/contact.html
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7125 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/img/contact.png
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7126 exit 0
+    Stdout:
+        PNG image data, 170 x 13, 8-bit colormap, non-interlaced
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/index.html
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7127 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/install.html
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7128 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/semantics.html
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7129 exit 0
+    Stdout:
+        HTML document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvcbuild.bat
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7130 exit 0
+    Stdout:
+        DOS batch file text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvctest.bat
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7131 exit 0
+    Stdout:
+        DOS batch file text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/Build.bat
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7132 exit 0
+    Stdout:
+        DOS batch file text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7133 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7134 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7135 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7136 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7137 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7138 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7139 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7140 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7141 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7142 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7143 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7144 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7145 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7146 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7147 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7148 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7149 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7150 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7151 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7152 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7153 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7154 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7155 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7156 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7157 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7158 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7159 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7160 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7161 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7162 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7163 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7164 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7165 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7166 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7167 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7168 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/maptag.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7169 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/maptag.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7170 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mission.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7171 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/mission.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7172 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/preview.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7173 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/preview.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7174 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/recruit.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7175 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/recruit.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7176 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7177 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7178 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/risker.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7179 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/risker.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7180 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7181 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7182 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/shareres.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7183 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/shareres.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7184 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/shop.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7185 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/shop.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7186 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/soud.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7187 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/soud.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7188 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/transfers.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7189 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/transfers.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7190 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7191 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d.manifest
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7192 exit 0
+    Stdout:
+        ASCII text
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/Resources/unity_builtin_extra
+2018-08-23 10:26:48 +0000      /usr/bin/file exited with pid 7193 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:48 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/globalgamemanagers
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7194 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/globalgamemanagers.assets
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7195 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/globalgamemanagers.assets.resS
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7196 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/level0
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7197 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/resources.assets
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7198 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/resources.assets.resS
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7199 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/sharedassets0.assets
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7200 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/sharedassets0.assets.resS
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7201 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Data/unity\ default\ resources
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7202 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Info.plist
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7203 exit 0
+    Stdout:
+        Apple binary property list
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-568h@2x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7204 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-700-568h@2x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7205 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-700@2x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7206 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-800-667h@2x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7207 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-800-Landscape-736h@3x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7208 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage-800-Portrait-736h@3x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7209 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7210 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchImage@2x.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7211 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchScreen-iPhone.nib
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7212 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchScreen-iPhoneLandscape.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7213 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/LaunchScreen-iPhonePortrait.png
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7214 exit 0
+    Stdout:
+        PNG image data, 1342185478 x 750286694, 0-bit grayscale,
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/PkgInfo
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7215 exit 0
+    Stdout:
+        ASCII text, with no line terminators
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/_CodeSignature/CodeResources
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7216 exit 0
+    Stdout:
+        XML 1.0 document text, ASCII text
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/embedded.mobileprovision
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7217 exit 0
+    Stdout:
+        data
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /usr/bin/file -b -- /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:26:49 +0000      /usr/bin/file exited with pid 7218 exit 0
+    Stdout:
+        Mach-O 64-bit executable arm64
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:26:49 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 7219 exit 0
+    Stdout:
+        Non-fat file: /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian is architecture: arm64
+    
+    Stderr:
+2018-08-23 10:26:49 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:26:50 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 7220 exit 0
+    Stdout:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    40       5072   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+    
+    Stderr:
+2018-08-23 10:26:50 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:26:50 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 7222 exit 0
+    Stdout:
+        /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/wodemaoxian:
+        Mach header
+              magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
+        MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    40       5072   NOUNDEFS DYLDLINK TWOLEVEL WEAK_DEFINES BINDS_TO_WEAK PIE
+        Load command 0
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __PAGEZERO
+           vmaddr 0x0000000000000000
+           vmsize 0x0000000100000000
+          fileoff 0
+         filesize 0
+          maxprot ---
+         initprot ---
+           nsects 0
+            flags (none)
+        Load command 1
+              cmd LC_SEGMENT_64
+          cmdsize 952
+          segname __TEXT
+           vmaddr 0x0000000100000000
+           vmsize 0x0000000001ad0000
+          fileoff 0
+         filesize 28114944
+          maxprot r-x
+         initprot r-x
+           nsects 11
+            flags (none)
+        Section
+          sectname __text
+           segname __TEXT
+              addr 0x0000000100005c50
+              size 0x0000000001665c28
+            offset 23632
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __stubs
+           segname __TEXT
+              addr 0x000000010166b878
+              size 0x0000000000001c68
+            offset 23509112
+             align 2^1 (2)
+            reloff 0
+            nreloc 0
+              type S_SYMBOL_STUBS
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0 (index into indirect symbol table)
+         reserved2 12 (size of stubs)
+        Section
+          sectname __stub_helper
+           segname __TEXT
+              addr 0x000000010166d4e0
+              size 0x0000000000001a40
+            offset 23516384
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes PURE_INSTRUCTIONS SOME_INSTRUCTIONS
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __gcc_except_tab
+           segname __TEXT
+              addr 0x000000010166ef20
+              size 0x00000000001a6044
+            offset 23523104
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cstring
+           segname __TEXT
+              addr 0x0000000101814f70
+              size 0x000000000009ef06
+            offset 25251696
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __TEXT
+              addr 0x00000001018b3e80
+              size 0x00000000001b4ba8
+            offset 25902720
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methname
+           segname __TEXT
+              addr 0x0000000101a68a28
+              size 0x00000000000084ff
+            offset 27691560
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classname
+           segname __TEXT
+              addr 0x0000000101a70f27
+              size 0x00000000000007d3
+            offset 27725607
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_methtype
+           
+2018-08-23 10:26:50 +0000  segname __TEXT
+              addr 0x0000000101a716fa
+              size 0x00000000000039b0
+            offset 27727610
+             align 2^0 (1)
+            reloff 0
+            nreloc 0
+              type S_CSTRING_LITERALS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __unwind_info
+           segname __TEXT
+              addr 0x0000000101a750ac
+              size 0x000000000005ac14
+            offset 27742380
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __eh_frame
+           segname __TEXT
+              addr 0x0000000101acfcc0
+              size 0x0000000000000338
+            offset 28114112
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 2
+              cmd LC_SEGMENT_64
+          cmdsize 1672
+          segname __DATA
+           vmaddr 0x0000000101ad0000
+           vmsize 0x000000000032c000
+          fileoff 28114944
+         filesize 1654784
+          maxprot rw-
+         initprot rw-
+           nsects 20
+            flags (none)
+        Section
+          sectname __got
+           segname __DATA
+              addr 0x0000000101ad0000
+              size 0x0000000000000898
+            offset 28114944
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_NON_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 606 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __la_symbol_ptr
+           segname __DATA
+              addr 0x0000000101ad0898
+              size 0x00000000000012f0
+            offset 28117144
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LAZY_SYMBOL_POINTERS
+        attributes (none)
+         reserved1 881 (index into indirect symbol table)
+         reserved2 0
+        Section
+          sectname __mod_init_func
+           segname __DATA
+              addr 0x0000000101ad1b88
+              size 0x0000000000000858
+            offset 28121992
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_MOD_INIT_FUNC_POINTERS
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __const
+           segname __DATA
+              addr 0x0000000101ad23e0
+              size 0x0000000000118258
+            offset 28124128
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __cfstring
+           segname __DATA
+              addr 0x0000000101bea638
+              size 0x00000000000025e0
+            offset 29271608
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classlist
+           segname __DATA
+              addr 0x0000000101becc18
+              size 0x00000000000001c0
+            offset 29281304
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_nlclslist
+           segname __DATA
+              addr 0x0000000101becdd8
+              size 0x0000000000000008
+            offset 29281752
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_catlist
+           segname __DATA
+              addr 0x0000000101becde0
+              size 0x0000000000000008
+            offset 29281760
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+    
+2018-08-23 10:26:50 +0000            type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protolist
+           segname __DATA
+              addr 0x0000000101becde8
+              size 0x00000000000000a8
+            offset 29281768
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_imageinfo
+           segname __DATA
+              addr 0x0000000101bece90
+              size 0x0000000000000008
+            offset 29281936
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_const
+           segname __DATA
+              addr 0x0000000101bece98
+              size 0x0000000000009af0
+            offset 29281944
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_selrefs
+           segname __DATA
+              addr 0x0000000101bf6988
+              size 0x0000000000002578
+            offset 29321608
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_LITERAL_POINTERS
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_protorefs
+           segname __DATA
+              addr 0x0000000101bf8f00
+              size 0x0000000000000010
+            offset 29331200
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_classrefs
+           segname __DATA
+              addr 0x0000000101bf8f10
+              size 0x00000000000003c8
+            offset 29331216
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_superrefs
+           segname __DATA
+              addr 0x0000000101bf92d8
+              size 0x0000000000000170
+            offset 29332184
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes NO_DEAD_STRIP
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_ivar
+           segname __DATA
+              addr 0x0000000101bf9448
+              size 0x0000000000000368
+            offset 29332552
+             align 2^2 (4)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __objc_data
+           segname __DATA
+              addr 0x0000000101bf97b0
+              size 0x00000000000011d0
+            offset 29333424
+             align 2^3 (8)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __data
+           segname __DATA
+              addr 0x0000000101bfa980
+              size 0x0000000000066038
+            offset 29337984
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_REGULAR
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __bss
+           segname __DATA
+              addr 0x0000000101c609c0
+              size 0x00000000000be200
+            offset 0
+             align 2^4 (16)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Section
+          sectname __common
+           segname __DATA
+              addr 0x0000000101d1ebc0
+              size 0x00000000000dbcc8
+            offset 0
+            
+2018-08-23 10:26:50 +0000   align 2^6 (64)
+            reloff 0
+            nreloc 0
+              type S_ZEROFILL
+        attributes (none)
+         reserved1 0
+         reserved2 0
+        Load command 3
+              cmd LC_SEGMENT_64
+          cmdsize 72
+          segname __LINKEDIT
+           vmaddr 0x0000000101dfc000
+           vmsize 0x00000000000d4000
+          fileoff 29769728
+         filesize 854832
+          maxprot r--
+         initprot r--
+           nsects 0
+            flags (none)
+        Load command 4
+                    cmd LC_DYLD_INFO_ONLY
+                cmdsize 48
+             rebase_off 29769728
+            rebase_size 10400
+               bind_off 29780128
+              bind_size 10472
+          weak_bind_off 29790600
+         weak_bind_size 5360
+          lazy_bind_off 29795960
+         lazy_bind_size 14864
+             export_off 29810824
+            export_size 218504
+        Load command 5
+             cmd LC_SYMTAB
+         cmdsize 24
+          symoff 30180960
+           nsyms 809
+          stroff 30199852
+         strsize 21736
+        Load command 6
+                    cmd LC_DYSYMTAB
+                cmdsize 80
+              ilocalsym 0
+              nlocalsym 1
+             iextdefsym 1
+             nextdefsym 51
+              iundefsym 52
+              nundefsym 757
+                 tocoff 0
+                   ntoc 0
+              modtaboff 0
+                nmodtab 0
+           extrefsymoff 0
+            nextrefsyms 0
+         indirectsymoff 30193904
+          nindirectsyms 1487
+              extreloff 0
+                nextrel 0
+              locreloff 0
+                nlocrel 0
+        Load command 7
+                  cmd LC_LOAD_DYLINKER
+              cmdsize 32
+                 name /usr/lib/dyld (offset 12)
+        Load command 8
+             cmd LC_UUID
+         cmdsize 24
+            uuid 1F18B2E0-E1DD-3256-8289-660527F6DA4C
+        Load command 9
+              cmd LC_VERSION_MIN_IPHONEOS
+          cmdsize 16
+          version 7.0
+              sdk 11.4
+        Load command 10
+              cmd LC_SOURCE_VERSION
+          cmdsize 16
+          version 0.0
+        Load command 11
+               cmd LC_MAIN
+           cmdsize 24
+          entryoff 23632
+         stacksize 0
+        Load command 12
+                  cmd LC_ENCRYPTION_INFO_64
+              cmdsize 24
+             cryptoff 16384
+            cryptsize 28098560
+              cryptid 0
+                  pad 0
+        Load command 13
+                  cmd LC_LOAD_WEAK_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreMotion.framework/CoreMotion (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 2245.0.41
+        compatibility version 1.0.0
+        Load command 14
+                  cmd LC_LOAD_WEAK_DYLIB
+              cmdsize 56
+                 name /usr/lib/libSystem.B.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1252.50.4
+        compatibility version 1.0.0
+        Load command 15
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 16
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/CoreText.framework/CoreText (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 17
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 492.0.0
+        compatibility version 1.0.0
+        Load command 18
+                  cmd LC_LOAD_WEAK_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/AVFoundation.framework/AVFoundation (offset
+2018-08-23 10:26:50 +0000   24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 2.0.0
+        compatibility version 1.0.0
+        Load command 19
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CFNetwork.framework/CFNetwork (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 901.1.0
+        compatibility version 1.0.0
+        Load command 20
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1161.21.0
+        compatibility version 64.0.0
+        Load command 21
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreLocation.framework/CoreLocation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 2245.0.41
+        compatibility version 1.0.0
+        Load command 22
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreMedia.framework/CoreMedia (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 23
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/CoreVideo.framework/CoreVideo (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.5.0
+        compatibility version 1.2.0
+        Load command 24
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/Foundation.framework/Foundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 300.0.0
+        Load command 25
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 26
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/OpenAL.framework/OpenAL (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 27
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/OpenGLES.framework/OpenGLES (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 28
+                  cmd LC_LOAD_DYLIB
+              cmdsize 88
+                 name /System/Library/Frameworks/QuartzCore.framework/QuartzCore (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.11.0
+        compatibility version 1.2.0
+        Load command 29
+                  cmd LC_LOAD_DYLIB
+              cmdsize 104
+                 name /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 963.50.8
+        compatibility version 1.0.0
+        Load command 30
+                  cmd LC_LOAD_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/UIKit.framework/UIKit (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 3698.54.4
+        compatibility version 1.0.0
+        Load command 31
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libiconv.2.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 7.0.0
+        compatibility version 7.0.0
+        Load command 32
+                  cmd LC_LOAD_WEAK_DYLIB
+              cmdsize 96
+2018-08-23 10:26:50 +0000                   name /System/Library/Frameworks/GameController.framework/GameController (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 33
+                  cmd LC_LOAD_WEAK_DYLIB
+              cmdsize 80
+                 name /System/Library/Frameworks/Metal.framework/Metal (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1.0.0
+        compatibility version 1.0.0
+        Load command 34
+                  cmd LC_LOAD_DYLIB
+              cmdsize 56
+                 name /usr/lib/libobjc.A.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 228.0.0
+        compatibility version 1.0.0
+        Load command 35
+                  cmd LC_LOAD_DYLIB
+              cmdsize 48
+                 name /usr/lib/libc++.1.dylib (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 400.9.1
+        compatibility version 1.0.0
+        Load command 36
+                  cmd LC_LOAD_DYLIB
+              cmdsize 96
+                 name /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (offset 24)
+           time stamp 2 Thu Jan  1 08:00:02 1970
+              current version 1452.23.0
+        compatibility version 150.0.0
+        Load command 37
+              cmd LC_FUNCTION_STARTS
+          cmdsize 16
+          dataoff 30029328
+         datasize 148816
+        Load command 38
+              cmd LC_DATA_IN_CODE
+          cmdsize 16
+          dataoff 30178144
+         datasize 2816
+        Load command 39
+              cmd LC_CODE_SIGNATURE
+          cmdsize 16
+          dataoff 30221600
+         datasize 402960
+    
+    Stderr:
+2018-08-23 10:26:52 +0000  Complete LinkageGraph:
+    wodemaoxian.app/wodemaoxian arm64 ->
+2018-08-23 10:26:52 +0000  Thinnable AssetCatalogs:
+    /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Assets.car
+AssetTraitGroups:
+---
+2018-08-23 10:26:52 +0000      iphoneos|arm64|phone|car+watch|2x|569s|gamut:sRGB|dynamicDisplayMode:|1m|MTL2,2g|MTL1,2+GLES2,0f|
+---
+2018-08-23 10:26:53 +0000              /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin/assetutil --scale 2 --idiom phone --subtype 569 --display-gamut sRGB --memory 1 --graphicsclass MTL2,2 --graphicsclassfallbacks MTL1,2:GLES2,0 --hostedidioms car,watch --output\=/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/6abf4b987efa7adad5e95e5591f3879394255a15/Payload/wodemaoxian.app/Assets.car /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Assets.car
+2018-08-23 10:26:53 +0000  Validating IPA structure...
+Stripping bitcode...
+Creating iphoneos|arm64|phone|car+watch|2x|569s|gamut:sRGB|dynamicDisplayMode:|1m|MTL2,2g|MTL1,2+GLES2,0f| IPA contents for iPhone7,2
+  Creating directory /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/6abf4b987efa7adad5e95e5591f3879394255a15
+  Thinning wodemaoxian.app output payload directory
+2018-08-23 10:26:53 +0000                  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin/assetutil exited with pid 7248 exit 0
+                Stdout:
+                
+                Stderr:
+                    carutil: found 1 assets that needed to be removed
+2018-08-23 10:26:55 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/ipatool20180823-7060-chagw6/universal-MachOs/Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:26:56 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 7250 exit 0
+    Stdout:
+        Non-fat file: /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/ipatool20180823-7060-chagw6/universal-MachOs/Payload/wodemaoxian.app/wodemaoxian is architecture: arm64
+    
+    Stderr:
+2018-08-23 10:26:56 +0000      Updating Info.plist with UISupportedDevices keys
+2018-08-23 10:26:57 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-08-23 10:26:58 +0000  Created IPA at: /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/6abf4b987efa7adad5e95e5591f3879394255a15
+   for devices: iPhone7,2 (iPhone 6)
+
+Creating universal IPA contents for all devices
+  Creating directory /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/universal
+  Copying wodemaoxian.app output payload directory
+2018-08-23 10:26:58 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 02018-08-23 10:26:58 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.2.8/lib/cfpropertylist/rbCFPropertyList.rb:363: warning: File.exists? is a deprecated name, use File.exist? instead
+
+2018-08-23 10:26:58 +0000  
+2018-08-23 10:26:58 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2887;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2887;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root/Payload/wodemaoxian.app/Assets.car"
+    );
+    thinnedIPAs =     (
+                {
+            devices =             (
+                "iPhone7,2"
+            );
+            path = "/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/6abf4b987efa7adad5e95e5591f3879394255a15";
+            traits =             {
+                architecture = arm64;
+                artworkDevIdiom = phone;
+                artworkDevSubtype = 569;
+                artworkDisplayGamut = sRGB;
+                artworkDynamicDisplayMode = "<null>";
+                artworkHostedIdioms =                 (
+                    car,
+                    watch
+                );
+                artworkScaleFactor = 2;
+                devPerfMemoryClass = 1;
+                gfxFeatureSetClass = "MTL2,2";
+                gfxFeatureSetFallbacks =                 (
+                    "MTL1,2",
+                    "GLES2,0"
+                );
+            };
+        }
+    );
+    universalIPA =     {
+        path = "/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/IDEIPAProcessor.AppThinning.skv/universal";
+    };
+}
+2018-08-23 10:26:59 +0000  Processing step: IDEDistributionODRStep
+2018-08-23 10:26:59 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-08-23 10:26:59 +0000  Running /usr/bin/xattr '-crs' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6/Payload/wodemaoxian.app'
+2018-08-23 10:27:00 +0000  
+2018-08-23 10:27:00 +0000  2018-08-23 10:27:00 +0000  /usr/bin/xattr exited with 0
+
+2018-08-23 10:27:00 +0000  2018-08-23 10:27:00 +0000  Processing step: IDEDistributionCodesignStep
+
+2018-08-23 10:27:00 +0000  Entitlements for <IDEDistributionItem: 0x7ffe4c1e51d0 'com.dskj.wodemaoxian' '<DVTFilePath:0x7ffe4ce5b420:'/Users/niuwamk2/Library/Developer/Xcode/Archives/2018-08-23/ma 2018-8-23 下午5.06.xcarchive/Products/Applications/wodemaoxian.app'>'>: {
+    "application-identifier" = "34AB787256.com.dskj.wodemaoxian";
+    "com.apple.developer.team-identifier" = 34AB787256;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "34AB787256.com.dskj.wodemaoxian"
+    );
+}
+2018-08-23 10:27:00 +0000  Writing entitlements for <IDEDistributionItem: 0x7ffe4c1e51d0 'com.dskj.wodemaoxian' '<DVTFilePath:0x7ffe4ce5b420:'/Users/niuwamk2/Library/Developer/Xcode/Archives/2018-08-23/ma 2018-8-23 下午5.06.xcarchive/Products/Applications/wodemaoxian.app'>'> to: /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/entitlementstR9rbp
+2018-08-23 10:27:00 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A864A348C7C8E080CD16F997B8D4B420E10CA952' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/entitlementstR9rbp' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6/Payload/wodemaoxian.app'
+2018-08-23 10:27:01 +0000  /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6/Payload/wodemaoxian.app: replacing existing signature
+2018-08-23 10:27:03 +0000  /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6/Payload/wodemaoxian.app: signed app bundle with Mach-O thin (arm64) [com.dskj.wodemaoxian]
+2018-08-23 10:27:03 +0000  
+2018-08-23 10:27:03 +0000  
+2018-08-23 10:27:03 +0000  
+2018-08-23 10:27:03 +0000  /usr/bin/codesign exited with 0
+2018-08-23 10:27:03 +0000  
+2018-08-23 10:27:03 +0000  
+2018-08-23 10:27:03 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-08-23 10:27:03 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-08-23 10:27:03 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-08-23 10:27:03 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6' '/var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Packages/ma-iPhone 6.ipa'
+2018-08-23 10:27:03 +0000  >>> Copying /var/folders/z0/6ldg2f1d0k31qh3lnqlwj0mc0000gn/T/XcodeDistPipeline.i7K/Root-iPhone 6 
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/_CodeSignature/CodeResources ... 
+2018-08-23 10:27:03 +0000  49547 bytes for ./Payload/wodemaoxian.app/_CodeSignature/CodeResources
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/AppIcon29x29@3x.png ... 
+2018-08-23 10:27:03 +0000  22202 bytes for ./Payload/wodemaoxian.app/AppIcon29x29@3x.png
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/AppIcon40x40@3x.png ... 
+2018-08-23 10:27:03 +0000  39325 bytes for ./Payload/wodemaoxian.app/AppIcon40x40@3x.png
+copying file ./Payload/wodemaoxian.app/AppIcon57x57.png ... 
+2018-08-23 10:27:03 +0000  10304 bytes for ./Payload/wodemaoxian.app/AppIcon57x57.png
+copying file ./Payload/wodemaoxian.app/AppIcon57x57@2x.png ... 
+2018-08-23 10:27:03 +0000  35809 bytes for ./Payload/wodemaoxian.app/AppIcon57x57@2x.png
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/AppIcon60x60@2x.png ... 
+2018-08-23 10:27:03 +0000  39325 bytes for ./Payload/wodemaoxian.app/AppIcon60x60@2x.png
+copying file ./Payload/wodemaoxian.app/AppIcon60x60@3x.png ... 
+2018-08-23 10:27:03 +0000  80834 bytes for ./Payload/wodemaoxian.app/AppIcon60x60@3x.png
+copying file ./Payload/wodemaoxian.app/Assets.car ... 
+2018-08-23 10:27:03 +0000  221160 bytes for ./Payload/wodemaoxian.app/Assets.car
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.pos ... 
+2018-08-23 10:27:03 +0000  2916 bytes for ./Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.pos
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.rpc.neo ... 
+2018-08-23 10:27:03 +0000  189654 bytes for ./Payload/wodemaoxian.app/Data/GI/level0/2d/2de8d84a9bf981af0be38b427f8482be.rpc.neo
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/Data/globalgamemanagers ... 
+2018-08-23 10:27:03 +0000  41468 bytes for ./Payload/wodemaoxian.app/Data/globalgamemanagers
+copying file ./Payload/wodemaoxian.app/Data/globalgamemanagers.assets ... 
+2018-08-23 10:27:03 +0000  90776 bytes for ./Payload/wodemaoxian.app/Data/globalgamemanagers.assets
+2018-08-23 10:27:03 +0000  copying file ./Payload/wodemaoxian.app/Data/globalgamemanagers.assets.resS ... 
+2018-08-23 10:27:04 +0000  2019592 bytes for ./Payload/wodemaoxian.app/Data/globalgamemanagers.assets.resS
+2018-08-23 10:27:04 +0000  copying file ./Payload/wodemaoxian.app/Data/level0 ... 
+2018-08-23 10:27:04 +0000  1767300 bytes for ./Payload/wodemaoxian.app/Data/level0
+2018-08-23 10:27:04 +0000  copying file ./Payload/wodemaoxian.app/Data/Managed/Metadata/global-metadata.dat ... 
+2018-08-23 10:27:04 +0000  5496756 bytes for ./Payload/wodemaoxian.app/Data/Managed/Metadata/global-metadata.dat
+2018-08-23 10:27:04 +0000  copying file ./Payload/wodemaoxian.app/Data/Managed/mono/2.0/machine.config ... 
+2018-08-23 10:27:04 +0000  27625 bytes for ./Payload/wodemaoxian.app/Data/Managed/mono/2.0/machine.config
+copying file ./Payload/wodemaoxian.app/Data/Managed/Resources/Mono.Data.Sqlite.dll-resources.dat ... 
+2018-08-23 10:27:04 +0000  34477 bytes for ./Payload/wodemaoxian.app/Data/Managed/Resources/Mono.Data.Sqlite.dll-resources.dat
+copying file ./Payload/wodemaoxian.app/Data/Managed/Resources/mscorlib.dll-resources.dat ... 
+2018-08-23 10:27:04 +0000  337563 bytes for ./Payload/wodemaoxian.app/Data/Managed/Resources/mscorlib.dll-resources.dat
+copying file ./Payload/wodemaoxian.app/Data/Managed/Resources/System.dll-resources.dat ... 
+2018-08-23 10:27:04 +0000  54703 bytes for ./Payload/wodemaoxian.app/Data/Managed/Resources/System.dll-resources.dat
+2018-08-23 10:27:04 +0000  copying file ./Payload/wodemaoxian.app/Data/Managed/SymbolMap-64 ... 
+2018-08-23 10:27:05 +0000  1444072 bytes for ./Payload/wodemaoxian.app/Data/Managed/SymbolMap-64
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/achievement.unity3d ... 
+2018-08-23 10:27:05 +0000  1223826 bytes for ./Payload/wodemaoxian.app/Data/Raw/achievement.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/achievement.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1969 bytes for ./Payload/wodemaoxian.app/Data/Raw/achievement.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d ... 
+2018-08-23 10:27:05 +0000  60511 bytes for ./Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1156 bytes for ./Payload/wodemaoxian.app/Data/Raw/advequipui.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/awrad.unity3d ... 
+2018-08-23 10:27:05 +0000  1134897 bytes for ./Payload/wodemaoxian.app/Data/Raw/awrad.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/awrad.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1516 bytes for ./Payload/wodemaoxian.app/Data/Raw/awrad.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d ... 
+2018-08-23 10:27:05 +0000  1040733 bytes for ./Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1077 bytes for ./Payload/wodemaoxian.app/Data/Raw/buygolds.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d ... 
+2018-08-23 10:27:05 +0000  1194096 bytes for ./Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1804 bytes for ./Payload/wodemaoxian.app/Data/Raw/changeequip.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/data.db ... 
+2018-08-23 10:27:05 +0000  15360 bytes for ./Payload/wodemaoxian.app/Data/Raw/data.db
+copying file ./Payload/wodemaoxian.app/Data/Raw/data.unity3d ... 
+2018-08-23 10:27:05 +0000  84043 bytes for ./Payload/wodemaoxian.app/Data/Raw/data.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/data.unity3d.manifest ... 
+1238 bytes for ./Payload/wodemaoxian.app/Data/Raw/data.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/equip.unity3d ... 
+2018-08-23 10:27:05 +0000  1173207 bytes for ./Payload/wodemaoxian.app/Data/Raw/equip.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/equip.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1600 bytes for ./Payload/wodemaoxian.app/Data/Raw/equip.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/files.txt ... 
+2018-08-23 10:27:05 +0000  6270 bytes for ./Payload/wodemaoxian.app/Data/Raw/files.txt
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d ... 
+2018-08-23 10:27:05 +0000  1052772 bytes for ./Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1171 bytes for ./Payload/wodemaoxian.app/Data/Raw/goldlack.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/guide.unity3d ... 
+2018-08-23 10:27:05 +0000  1295455 bytes for ./Payload/wodemaoxian.app/Data/Raw/guide.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/guide.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1164 bytes for ./Payload/wodemaoxian.app/Data/Raw/guide.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d ... 
+2018-08-23 10:27:05 +0000  1026130 bytes for ./Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d.manifest ... 
+1349 bytes for ./Payload/wodemaoxian.app/Data/Raw/guildupgrade.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/levelup.unity3d ... 
+2018-08-23 10:27:05 +0000  1027542 bytes for ./Payload/wodemaoxian.app/Data/Raw/levelup.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/levelup.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1445 bytes for ./Payload/wodemaoxian.app/Data/Raw/levelup.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/loader.unity3d ... 
+2018-08-23 10:27:05 +0000  1216603 bytes for ./Payload/wodemaoxian.app/Data/Raw/loader.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/loader.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1710 bytes for ./Payload/wodemaoxian.app/Data/Raw/loader.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d ... 
+2018-08-23 10:27:05 +0000  1023525 bytes for ./Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  1530 bytes for ./Payload/wodemaoxian.app/Data/Raw/loaderinfo.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example1.json ... 
+2018-08-23 10:27:05 +0000  871 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example1.json
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example2.json ... 
+2018-08-23 10:27:05 +0000  242 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example2.json
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example3.json ... 
+2018-08-23 10:27:05 +0000  601 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example3.json
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example4.json ... 
+2018-08-23 10:27:05 +0000  3463 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example4.json
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example5.json ... 
+2018-08-23 10:27:05 +0000  873 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/cjson/example5.json
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/api.html ... 
+2018-08-23 10:27:05 +0000  12045 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/api.html
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad-print.css ... 
+2018-08-23 10:27:05 +0000  2514 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad-print.css
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad.css ... 
+2018-08-23 10:27:05 +0000  5182 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/bluequad.css
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/changes.html ... 
+2018-08-23 10:27:05 +0000  2094 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/changes.html
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/contact.html ... 
+2018-08-23 10:27:05 +0000  2039 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/contact.html
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/img/contact.png ... 
+2018-08-23 10:27:05 +0000  1575 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/img/contact.png
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/index.html ... 
+2018-08-23 10:27:05 +0000  2926 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/index.html
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/install.html ... 
+2018-08-23 10:27:05 +0000  7908 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/install.html
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/semantics.html ... 
+2018-08-23 10:27:05 +0000  7556 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/doc/semantics.html
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile ... 
+2018-08-23 10:27:05 +0000  1399 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile.mingw ... 
+2018-08-23 10:27:05 +0000  1178 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/Makefile.mingw
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvcbuild.bat ... 
+2018-08-23 10:27:05 +0000  851 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvcbuild.bat
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvctest.bat ... 
+2018-08-23 10:27:05 +0000  308 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/msvctest.bat
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/README ... 
+2018-08-23 10:27:05 +0000  506 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/3rd/luabitop/README
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/Build.bat ... 
+2018-08-23 10:27:05 +0000  542 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/Build.bat
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d ... 
+2018-08-23 10:27:05 +0000  9294 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  628 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d ... 
+2018-08-23 10:27:05 +0000  2709 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  345 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_cjson.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d ... 
+2018-08-23 10:27:05 +0000  4852 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  535 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_3rd_luabitop.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d ... 
+2018-08-23 10:27:05 +0000  2712 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  341 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_cjson.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d ... 
+2018-08-23 10:27:05 +0000  20662 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  625 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_common.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d ... 
+2018-08-23 10:27:05 +0000  34343 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d.manifest ... 
+1295 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_controller.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d ... 
+2018-08-23 10:27:05 +0000  41232 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d.manifest ... 
+894 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_jit.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d ... 
+2018-08-23 10:27:05 +0000  6679 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  456 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_logic.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d ... 
+2018-08-23 10:27:05 +0000  2978 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  338 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_lpeg.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d ... 
+2018-08-23 10:27:05 +0000  4078 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  446 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_misc.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d ... 
+2018-08-23 10:27:05 +0000  10936 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  689 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_protobuf.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d ... 
+2018-08-23 10:27:05 +0000  11911 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  551 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_socket.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d ... 
+2018-08-23 10:27:05 +0000  2491 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d.manifest ... 
+423 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d ... 
+2018-08-23 10:27:05 +0000  1137 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d.manifest ... 
+361 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_system_reflection.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d ... 
+2018-08-23 10:27:05 +0000  14967 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  901 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_unityengine.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d ... 
+2018-08-23 10:27:05 +0000  2598 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  430 bytes for ./Payload/wodemaoxian.app/Data/Raw/lua/lua_view.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d ... 
+2018-08-23 10:27:05 +0000  1308352 bytes for ./Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  2182 bytes for ./Payload/wodemaoxian.app/Data/Raw/mapalbum.unity3d.manifest
+2018-08-23 10:27:05 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d ... 
+2018-08-23 10:27:05 +0000  7550020 bytes for ./Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d.manifest ... 
+2018-08-23 10:27:05 +0000  22956 bytes for ./Payload/wodemaoxian.app/Data/Raw/mapimage.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/maptag.unity3d ... 
+2018-08-23 10:27:06 +0000  261977 bytes for ./Payload/wodemaoxian.app/Data/Raw/maptag.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/maptag.unity3d.manifest ... 
+2550 bytes for ./Payload/wodemaoxian.app/Data/Raw/maptag.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/mission.unity3d ... 
+2018-08-23 10:27:06 +0000  1215876 bytes for ./Payload/wodemaoxian.app/Data/Raw/mission.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/mission.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  1887 bytes for ./Payload/wodemaoxian.app/Data/Raw/mission.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/preview.unity3d ... 
+2018-08-23 10:27:06 +0000  1184663 bytes for ./Payload/wodemaoxian.app/Data/Raw/preview.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/preview.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  1794 bytes for ./Payload/wodemaoxian.app/Data/Raw/preview.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/recruit.unity3d ... 
+2018-08-23 10:27:06 +0000  1208411 bytes for ./Payload/wodemaoxian.app/Data/Raw/recruit.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/recruit.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  1699 bytes for ./Payload/wodemaoxian.app/Data/Raw/recruit.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d ... 
+2018-08-23 10:27:06 +0000  174810 bytes for ./Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  1181 bytes for ./Payload/wodemaoxian.app/Data/Raw/recruitui.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/risker.unity3d ... 
+2018-08-23 10:27:06 +0000  570176 bytes for ./Payload/wodemaoxian.app/Data/Raw/risker.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/risker.unity3d.manifest ... 
+866 bytes for ./Payload/wodemaoxian.app/Data/Raw/risker.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d ... 
+2018-08-23 10:27:06 +0000  1194480 bytes for ./Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  1617 bytes for ./Payload/wodemaoxian.app/Data/Raw/riskerinfo.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/shareres.unity3d ... 
+2018-08-23 10:27:06 +0000  286094 bytes for ./Payload/wodemaoxian.app/Data/Raw/shareres.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/shareres.unity3d.manifest ... 
+2094 bytes for ./Payload/wodemaoxian.app/Data/Raw/shareres.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/shop.unity3d ... 
+2018-08-23 10:27:06 +0000  1174077 bytes for ./Payload/wodemaoxian.app/Data/Raw/shop.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/shop.unity3d.manifest ... 
+1595 bytes for ./Payload/wodemaoxian.app/Data/Raw/shop.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/soud.unity3d ... 
+2018-08-23 10:27:06 +0000  4298510 bytes for ./Payload/wodemaoxian.app/Data/Raw/soud.unity3d
+copying file ./Payload/wodemaoxian.app/Data/Raw/soud.unity3d.manifest ... 
+2018-08-23 10:27:06 +0000  669 bytes for ./Payload/wodemaoxian.app/Data/Raw/soud.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/StreamingAssets ... 
+2018-08-23 10:27:06 +0000  2073 bytes for ./Payload/wodemaoxian.app/Data/Raw/StreamingAssets
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/StreamingAssets.manifest ... 
+2018-08-23 10:27:06 +0000  3226 bytes for ./Payload/wodemaoxian.app/Data/Raw/StreamingAssets.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/transfers.unity3d ... 
+2018-08-23 10:27:06 +0000  1040746 bytes for ./Payload/wodemaoxian.app/Data/Raw/transfers.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/transfers.unity3d.manifest ... 
+1172 bytes for ./Payload/wodemaoxian.app/Data/Raw/transfers.unity3d.manifest
+copying file ./Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d ... 
+2018-08-23 10:27:06 +0000  1028241 bytes for ./Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d.manifest ... 
+1464 bytes for ./Payload/wodemaoxian.app/Data/Raw/transferssuccess.unity3d.manifest
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/Resources/unity_builtin_extra ... 
+2018-08-23 10:27:06 +0000  503192 bytes for ./Payload/wodemaoxian.app/Data/Resources/unity_builtin_extra
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/resources.assets ... 
+2018-08-23 10:27:06 +0000  7783208 bytes for ./Payload/wodemaoxian.app/Data/resources.assets
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/resources.assets.resS ... 
+2018-08-23 10:27:06 +0000  262144 bytes for ./Payload/wodemaoxian.app/Data/resources.assets.resS
+2018-08-23 10:27:06 +0000  copying file ./Payload/wodemaoxian.app/Data/sharedassets0.assets ... 
+2018-08-23 10:27:07 +0000  7507868 bytes for ./Payload/wodemaoxian.app/Data/sharedassets0.assets
+2018-08-23 10:27:07 +0000  copying file ./Payload/wodemaoxian.app/Data/sharedassets0.assets.resS ... 
+2018-08-23 10:27:08 +0000  17734692 bytes for ./Payload/wodemaoxian.app/Data/sharedassets0.assets.resS
+2018-08-23 10:27:08 +0000  copying file ./Payload/wodemaoxian.app/Data/unity default resources ... 
+2018-08-23 10:27:08 +0000  1079472 bytes for ./Payload/wodemaoxian.app/Data/unity default resources
+2018-08-23 10:27:08 +0000  copying file ./Payload/wodemaoxian.app/embedded.mobileprovision ... 
+2018-08-23 10:27:08 +0000  8735 bytes for ./Payload/wodemaoxian.app/embedded.mobileprovision
+copying file ./Payload/wodemaoxian.app/Info.plist ... 
+2018-08-23 10:27:08 +0000  5208 bytes for ./Payload/wodemaoxian.app/Info.plist
+copying file ./Payload/wodemaoxian.app/LaunchImage-568h@2x.png ... 
+2018-08-23 10:27:08 +0000  4617 bytes for ./Payload/wodemaoxian.app/LaunchImage-568h@2x.png
+copying file ./Payload/wodemaoxian.app/LaunchImage-700-568h@2x.png ... 
+2018-08-23 10:27:08 +0000  4617 bytes for ./Payload/wodemaoxian.app/LaunchImage-700-568h@2x.png
+copying file ./Payload/wodemaoxian.app/LaunchImage-700@2x.png ... 
+2018-08-23 10:27:08 +0000  3935 bytes for ./Payload/wodemaoxian.app/LaunchImage-700@2x.png
+copying file ./Payload/wodemaoxian.app/LaunchImage-800-667h@2x.png ... 
+2018-08-23 10:27:08 +0000  5951 bytes for ./Payload/wodemaoxian.app/LaunchImage-800-667h@2x.png
+2018-08-23 10:27:08 +0000  copying file ./Payload/wodemaoxian.app/LaunchImage-800-Landscape-736h@3x.png ... 
+2018-08-23 10:27:08 +0000  12887 bytes for ./Payload/wodemaoxian.app/LaunchImage-800-Landscape-736h@3x.png
+2018-08-23 10:27:08 +0000  copying file ./Payload/wodemaoxian.app/LaunchImage-800-Portrait-736h@3x.png ... 
+2018-08-23 10:27:08 +0000  14197 bytes for ./Payload/wodemaoxian.app/LaunchImage-800-Portrait-736h@3x.png
+copying file ./Payload/wodemaoxian.app/LaunchImage.png ... 
+2018-08-23 10:27:08 +0000  1427 bytes for ./Payload/wodemaoxian.app/LaunchImage.png
+copying file ./Payload/wodemaoxian.app/LaunchImage@2x.png ... 
+2018-08-23 10:27:08 +0000  3935 bytes for ./Payload/wodemaoxian.app/LaunchImage@2x.png
+2018-08-23 10:27:08 +0000  copying file ./Payload/wodemaoxian.app/LaunchScreen-iPhone.nib ... 
+2018-08-23 10:27:08 +0000  1453 bytes for ./Payload/wodemaoxian.app/LaunchScreen-iPhone.nib
+copying file ./Payload/wodemaoxian.app/LaunchScreen-iPhoneLandscape.png ... 
+2018-08-23 10:27:08 +0000  120 bytes for ./Payload/wodemaoxian.app/LaunchScreen-iPhoneLandscape.png
+copying file ./Payload/wodemaoxian.app/LaunchScreen-iPhonePortrait.png ... 
+2018-08-23 10:27:08 +0000  120 bytes for ./Payload/wodemaoxian.app/LaunchScreen-iPhonePortrait.png
+copying file ./Payload/wodemaoxian.app/PkgInfo ... 
+2018-08-23 10:27:08 +0000  8 bytes for ./Payload/wodemaoxian.app/PkgInfo
+copying file ./Payload/wodemaoxian.app/wodemaoxian ... 
+2018-08-23 10:27:09 +0000  30624560 bytes for ./Payload/wodemaoxian.app/wodemaoxian
+2018-08-23 10:27:09 +0000  
+2018-08-23 10:27:09 +0000  2018-08-23 10:27:09 +0000  /usr/bin/ditto exited with 0
+
+2018-08-23 10:27:09 +0000  
+2018-08-23 10:27:09 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-08-23 10:27:09 +0000  Processing step: IDEDistributionAppThinningManifestStep
